@@ -15,7 +15,7 @@
         <TextBox x:Name="txt_Result" HorizontalAlignment="Left" Margin="177,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Height="39" FontSize="25" Grid.ColumnSpan="2"/>
         <Button x:Name="Result" Content="Рассчёт" Grid.Column="1" HorizontalAlignment="Left" Margin="44,165,0,0" VerticalAlignment="Top" Width="108" Height="34" FontFamily="Adobe Caslon Pro Bold" FontSize="16" Click="Result_Click"/>
         <TextBox x:Name="txt_Radius" Grid.Column="1" HorizontalAlignment="Left" Margin="179,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="28" RenderTransformOrigin="0.549,-1.499"/>
-        <TextBox x:Name="txt_radius" HorizontalAlignment="Left" Margin="179,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="28" />
+        <TextBox x:Name="txt_sradius" HorizontalAlignment="Left" Margin="179,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="28" />
         <TextBox x:Name="txt_height" HorizontalAlignment="Left" Margin="179,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="28"/>
     </Grid>
 </Window>

@@ -19,7 +19,7 @@ namespace TRPO_ASP.Controllers
         [HttpPost]
         public ActionResult Index(string BRadius, string sradius, string height)
         {
-            double Square = new Math_1().Formula(Convert.ToDouble(BRadius), Convert.ToDouble(sradius), Convert.ToDouble(height));
+            double Square = Math.Round(Channel.Formula(Convert.ToDouble(BRadius), Convert.ToDouble(sradius), Convert.ToDouble(height)),3);
             ViewBag.Result = Square;
             return View();
         }
