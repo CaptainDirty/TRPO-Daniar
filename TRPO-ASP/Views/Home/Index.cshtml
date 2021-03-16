@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Площадь поверхности шарового сегмента";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>square</title>
+</head>
+<body>
+    <h1>Вычисление площади поверхности шарового сектора</h1>
+    <div>
+        <figure>
+            <img src="/lib/Picture.png" alt="Результат" />
+        </figure>
+        <form action="" method="post">
+            <input type="number" name="BRadius" placeholder="Радиус (R) шара или образующую конуса"/>
+            <input type="number" name="sradius" placeholder="Радиус (r) основания шарового сегмента"/>
+            <input type="number" name="height" placeholder="Высота (h) шарового сегмента"/>
+            <button>Рассчитать</button>
+
+            @if (ViewBag.Result != null)
+            {<p>
+                <h1>
+                    Результат: @Math.Round(ViewBag.Result, 2)
+                </h1>
+            </p>}
+        </form>
+    </div>
+</body>
+</html>
+
+
