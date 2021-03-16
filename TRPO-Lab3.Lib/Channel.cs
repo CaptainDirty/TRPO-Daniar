@@ -2,7 +2,7 @@
 
 namespace TRPO_Lab3.Lib
 {
-    public class Channel
+    public class Channel//усталь
     {
         public static double Formula(double R, double r, double h)
         {
